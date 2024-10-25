@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+#newGridButton {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#container {
+    display: grid;
+    width: 960px;
+    height: 960px;
+    border: 2px solid black;
+}
+
+.square {
+    border: 1px solid lightgray;
+    background-color: white;
+}
